@@ -2,7 +2,7 @@
 package postgre
 
 import (
-	sqlConnection "github.com/enricodg/leaf-utilities/database/sql/sql"
+	sqlConnection "github.com/paulusrobin/leaf-utilities/database/sql/sql"
 	"github.com/paulusrobin/leaf-utilities/leafMigration/helper/migration"
 	leafLogger "github.com/paulusrobin/leaf-utilities/logger/logger"
 )
