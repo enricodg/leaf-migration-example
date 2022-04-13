@@ -7,24 +7,24 @@ import (
 	leafLogger "github.com/paulusrobin/leaf-utilities/logger/logger"
 )
 
-type migration_00000000000000 struct {
+type migration_19700101000000 struct {
 	Log  leafLogger.Logger
 	Conn sqlConnection.ORM
 }
 
 // NOTE: DO NOT CHANGE MIGRATION Version
-func (m *migration_00000000000000) Version() uint64 {
-	return uint64(00000000000000)
+func (m *migration_19700101000000) Version() uint64 {
+	return uint64(19700101000000)
 }
 
 // NOTE: DO NOT CHANGE MIGRATION Name
-func (m *migration_00000000000000) Name() string {
-	return "00000000000000_create_service_parameters"
+func (m *migration_19700101000000) Name() string {
+	return "create_service_parameters"
 }
 
-func (m *migration_00000000000000) Migrate() error {
+func (m *migration_19700101000000) Migrate() error {
 
-	script, err := file.ReadToString("./scripts/postgre/00000000000000_create_service_parameters_migrate.sql")
+	script, err := file.ReadToString("./scripts/postgre/19700101000000_create_service_parameters_migrate.sql")
 	if err != nil {
 		return err
 	}
@@ -37,8 +37,8 @@ func (m *migration_00000000000000) Migrate() error {
 
 }
 
-func (m *migration_00000000000000) Rollback() error {
-	script, err := file.ReadToString("./scripts/postgre/00000000000000_create_service_parameters_rollback.sql")
+func (m *migration_19700101000000) Rollback() error {
+	script, err := file.ReadToString("./scripts/postgre/19700101000000_create_service_parameters_rollback.sql")
 	if err != nil {
 		return err
 	}

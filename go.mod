@@ -4,8 +4,10 @@ go 1.18
 
 require (
 	github.com/enricodg/leaf-utilities/database/sql/sql v0.0.0-20220331101308-358b5b99729f
-	github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220412163909-39deddfb3796
+	github.com/paulusrobin/leaf-utilities/database/nosql/nosql v0.0.0-20220412043619-c825dc489a25
+	github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220413034912-5e197528c618
 	github.com/paulusrobin/leaf-utilities/logger/logger v0.0.0-20220407104228-ffe90f543297
+	go.mongodb.org/mongo-driver v1.9.0
 )
 
 require (
@@ -43,7 +45,6 @@ require (
 	github.com/paulusrobin/leaf-utilities/common v0.0.0-20220405011639-4753f34ca4a8 // indirect
 	github.com/paulusrobin/leaf-utilities/config v0.0.0-20220407104228-ffe90f543297 // indirect
 	github.com/paulusrobin/leaf-utilities/database/nosql/integrations/gomongo v0.0.0-20220412043619-c825dc489a25 // indirect
-	github.com/paulusrobin/leaf-utilities/database/nosql/nosql v0.0.0-20220412043619-c825dc489a25 // indirect
 	github.com/paulusrobin/leaf-utilities/encoding/json v0.0.0-20220407091457-d5651ac33646 // indirect
 	github.com/paulusrobin/leaf-utilities/logger/integrations/logrus v0.0.0-20220407104228-ffe90f543297 // indirect
 	github.com/paulusrobin/leaf-utilities/mandatory v0.0.0-20220322085140-66e0cded624f // indirect
@@ -70,7 +71,6 @@ require (
 	github.com/xdg-go/scram v1.0.2 // indirect
 	github.com/xdg-go/stringprep v1.0.2 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // indirect
-	go.mongodb.org/mongo-driver v1.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20211210111614-af8b64212486 // indirect

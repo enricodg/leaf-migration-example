@@ -9,12 +9,12 @@ import (
 
 func InitializeMigrations(conn sqlConnection.ORM, log leafLogger.Logger) []migration.Migration {
 	var migrations = make([]migration.Migration, 0)
-	migrations = append(migrations, Migration_00000000000000(conn, log))
+	migrations = append(migrations, Migration_19700101000000(conn, log))
 	return migrations
 }
 
-func Migration_00000000000000(conn sqlConnection.ORM, log leafLogger.Logger) migration.Migration {
-	return &migration_00000000000000{
+func Migration_19700101000000(conn sqlConnection.ORM, log leafLogger.Logger) migration.Migration {
+	return &migration_19700101000000{
 		Log:  log,
 		Conn: conn,
 	}

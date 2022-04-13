@@ -463,8 +463,8 @@ github.com/paulusrobin/leaf-utilities/encoding/json v0.0.0-20220222200733-699280
 github.com/paulusrobin/leaf-utilities/encoding/json v0.0.0-20220224085244-722410f9260e/go.mod h1:vzYmDKtBfBSnNi7uRQAgKORWPY3JSJxTHENiwkVgsQM=
 github.com/paulusrobin/leaf-utilities/encoding/json v0.0.0-20220407091457-d5651ac33646 h1:NJPx8Rx1GDJS5vMUEVXP06cXGjoZdMN9NbBTD0eZpmQ=
 github.com/paulusrobin/leaf-utilities/encoding/json v0.0.0-20220407091457-d5651ac33646/go.mod h1:vzYmDKtBfBSnNi7uRQAgKORWPY3JSJxTHENiwkVgsQM=
-github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220412163909-39deddfb3796 h1:UmlnZ3qL6NrKXhorOtH6PQeZk2gtICetVPozr1XVfgs=
-github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220412163909-39deddfb3796/go.mod h1:vsuYqNvzxTyHJVab13n1FAIbWrclGLRm4FbvIc4mZ/w=
+github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220413034912-5e197528c618 h1:Ub89rCGiAnSddOITsXQOP2fXK5iBhMtNXsKfXs5QqB4=
+github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220413034912-5e197528c618/go.mod h1:vsuYqNvzxTyHJVab13n1FAIbWrclGLRm4FbvIc4mZ/w=
 github.com/paulusrobin/leaf-utilities/logger/integrations/logrus v0.0.0-20220323084925-3ece86cd22d6/go.mod h1:kYBjXSYXKddpPrtKboz5AZTB+RIp2ERB1PUA/VMw91k=
 github.com/paulusrobin/leaf-utilities/logger/integrations/logrus v0.0.0-20220406024637-86c20de7d2ab/go.mod h1:kYBjXSYXKddpPrtKboz5AZTB+RIp2ERB1PUA/VMw91k=
 github.com/paulusrobin/leaf-utilities/logger/integrations/logrus v0.0.0-20220407104228-ffe90f543297 h1:qFkvGQyBpgCw824kNPLuokKpTA5BLzbiAQI2/vVJYWw=
