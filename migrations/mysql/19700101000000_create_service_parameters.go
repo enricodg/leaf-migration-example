@@ -23,7 +23,6 @@ func (m *migration_19700101000000) Name() string {
 }
 
 func (m *migration_19700101000000) Migrate() error {
-
 	script, err := file.ReadToString("./scripts/mysql/19700101000000_create_service_parameters_migrate.sql")
 	if err != nil {
 		return err
@@ -34,7 +33,6 @@ func (m *migration_19700101000000) Migrate() error {
 	}
 
 	return nil
-
 }
 
 func (m *migration_19700101000000) Rollback() error {

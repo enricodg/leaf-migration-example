@@ -7,5 +7,7 @@ CREATE TABLE IF NOT EXISTS service_parameters (
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_by varchar(100),
     updated_at TIMESTAMP NULL DEFAULT NULL,
-    is_deleted BOOLEAN DEFAULT false
+    deleted_by varchar(100),
+    deleted_at_unix INT (10) DEFAULT 0,
+    CONSTRAINT service_parameters_variable_deleted_at_unix_unique UNIQUE (variable, deleted_at_unix)
 );
